@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Muhammad Saad Siddiqui | Frontend Developer</title>
+<meta name="description" content="Frontend developer building fast, clean and responsive websites with React, HTML, CSS and JavaScript.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("aPvdNoGCyD1j7nKVE");
+   })();
+</script>
+</head>
+<body>
+
+<header>
+  <div class="container nav">
+    <a href="#home" class="logo">Saad<span>.</span>dev</a>
+    <div class="nav-right">
+      <ul id="links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="icon-btn" id="theme" aria-label="Toggle theme">&#9728;</button>
+      <button class="icon-btn burger" id="burger" aria-label="Menu">&#9776;</button>
+    </div>
+  </div>
+</header>
+
+<section class="hero" id="home">
+  <div class="container">
+    <div class="badge"><span class="dot"></span> Available for freelance projects</div>
+    <h1>I build <span class="grad">fast &amp; modern</span> websites.</h1>
+    <p>Hi, I'm <strong>Muhammad Saad Siddiqui</strong>, a frontend developer who turns ideas into clean, responsive websites for businesses and startups. Specialising in <span class="typed" id="typed"></span></p>
+    <div class="cta">
+      <a href="#contact" class="btn btn-p">Hire me &rarr;</a>
+      <a href="#projects" class="btn btn-o">See my work</a>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="container about-grid">
+    <div class="reveal">
+      <p class="label">About me</p>
+      <h2 class="title">Design minded developer.</h2>
+      <p>I care about three things: websites that load fast, look great on every phone. Whether it's a landing page for a new shop or a full multi page site, I keep communication simple, deadlines clear and the code clean.</p>
+    </div>
+    <div class="facts reveal">
+      <div class="fact"><strong data-count="3">0</strong><span>Projects built</span></div>
+      <div class="fact"><strong data-count="100">0</strong><span>% responsive</span></div>
+      <div class="fact"><strong data-count="2">0</strong><span>Years of learning &amp; building</span></div>
+      <div class="fact"><strong data-count="24">0</strong><span>Hours reply time</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="skills" style="background:var(--surface2)">
+  <div class="container reveal">
+    <p class="label">Skills</p>
+    <h2 class="title">Tools I work with</h2>
+    <div class="skills">
+      <span class="skill">HTML5</span><span class="skill">CSS3</span><span class="skill">JavaScript</span>
+      <span class="skill">React</span><span class="skill">Responsive Design</span><span class="skill">Git &amp; GitHub</span>
+    </div>
+    <div class="bars" id="bars">
+      <div><div class="bar-top"><span>HTML &amp; CSS</span><span>90%</span></div><div class="bar"><i data-w="90"></i></div></div>
+      <div><div class="bar-top"><span>JavaScript</span><span>80%</span></div><div class="bar"><i data-w="80"></i></div></div>
+      <div><div class="bar-top"><span>React</span><span>75%</span></div><div class="bar"><i data-w="75"></i></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="container">
+    <p class="label reveal">Projects</p>
+    <h2 class="title reveal">Selected work</h2>
+    <div class="filters" id="filters"></div>
+    <div class="projects" id="projects-grid"></div>
+  </div>
+</section>
+
+<section id="services" style="background:var(--surface2)">
+  <div class="container">
+    <p class="label reveal">Services</p>
+    <h2 class="title reveal">How I can help</h2>
+    <div class="services reveal">
+      <div class="svc"><div class="ic">&#128640;</div><h3>Landing pages</h3><p>High converting single pages for products, events and campaigns.</p></div>
+      <div class="svc"><div class="ic">&#9889;</div><h3>React apps</h3><p>Interactive dashboards, booking flows and web applications.</p></div>
+      <div class="svc"><div class="ic">&#128295;</div><h3>Fixes &amp; redesigns</h3><p>Make your old site faster, mobile friendly and modern.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container contact-grid">
+    <div class="reveal">
+      <p class="label">Contact</p>
+      <h2 class="title" style="margin-bottom:18px">Let's build something.</h2>
+      <p>Tell me about your project. I usually reply within 24 hours.</p>
+      <div class="social-icons">
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=saad.siddiqiui4u2008@gmail.com" target="_blank" rel="noopener" class="social-btn" aria-label="Email">
+          <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+        </a>
+        <a href="https://wa.me/923338816134" target="_blank" rel="noopener" class="social-btn" aria-label="WhatsApp">
+          <svg viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+        </a>
+        <a href="https://github.com/SaadSiddiqu-12?tab=repositories" target="_blank" rel="noopener" class="social-btn" aria-label="GitHub">
+          <svg viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+        </a>
+      </div>
+    </div>
+    <form class="reveal" id="form" novalidate>
+      <label>Your name<input name="name" placeholder="Name" required><span class="err" data-e="name"></span></label>
+      <label>Email<input name="email" type="email" placeholder="your@email.com" required><span class="err" data-e="email"></span></label>
+      <label>Project details<textarea name="message" rows="5" placeholder="What do you need?" required></textarea><span class="err" data-e="msg"></span></label>
+      <button class="btn btn-p" type="submit" style="justify-content:center">Send message</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <span>&copy; <span id="y"></span> Saad.dev All rights reserved.</span>
+    <span>Built with love ❤️</span>
+  </div>
+</footer>
+
+<div class="toast" id="toast">Message sent! I'll get back to you soon.</div>
+
+<script src="script.js"></script>
+</body>
+</html>
